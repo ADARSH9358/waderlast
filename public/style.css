@@ -1,0 +1,74 @@
+body{
+    background-color: aqua;
+}
+.navbar{
+    height: 5rem;
+    background-color: white;
+}
+.navbar-brand{
+     color: #fe424d;
+     font-size: 2rem;
+}
+.nav-link{
+    color: #222222 !important  ;
+}
+
+/* footer */
+.f-info-links a{
+    text-decoration: none;
+
+}
+
+.f-info-links{
+    width: 100%;
+    font-size: 1.2rem;
+    margin-top:1rem;
+    display: flex;
+}
+.f-info-social i{
+    width: 100%;
+    font-size: 1.2rem;
+    margin-right:1rem;
+    display: flex;
+
+}
+
+.f_info{
+    height : 8rem;
+    align-items: center;
+    background-color: aliceblue;
+    display: flex;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-items: space-evenly; 
+}
+
+/* <div class="f_info">
+        <div class="f-info-social"> */
+        /* <div class="f-info-links"> */
+
+
+        /* card */
+.card{
+    border:none !important;
+    margin-bottom: 2rem;
+}
+.card-img-top{
+    width: 100%;
+    object-fit: cover !important;
+}
+.card-body{
+    padding: 0;
+}
+.card-text{
+    
+}
+.card-img-overlay{
+    opacity: 0;
+}
+.card-img-overlay :hover{
+    opacity: 0.2;
+    background-color: white;
+}
